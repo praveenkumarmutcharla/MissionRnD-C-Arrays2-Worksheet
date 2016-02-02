@@ -26,7 +26,7 @@ namespace spec
 			int A2[7] = { 2, 3, 3, 3, 6, 6, 6 };
 			Assert::AreEqual(findSingleOccurenceNumber(A2, 7), 2, L"sorted Array case failed.", LINE_INFO());
 		}
-
+		
 		TEST_METHOD(unSortedArray)
 		{
 			int A[10] = { 12, 1, 12, 3, 12, 1, 1, 2, 3, 3 };
