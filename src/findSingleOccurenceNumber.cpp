@@ -16,7 +16,7 @@ NOTES:
 #include<stdio.h>
 int findSingleOccurenceNumber(int *A, int len) {
 	int cmpnumptr = 0, i = 0, j = len - 1, count = 0;
-	if (A == nullptr)
+	if (A == NULL)
 		return -1;
 	while (cmpnumptr<len)
 	{

@@ -18,7 +18,7 @@ namespace spec
 		TEST_METHOD(sortedArray)
 		{
 			int A[7] = { 2, 2, 2, 3, 6, 6, 6 };
-			Assert::AreEqual(findSingleOccurenceNumber(A, 7), 3, L"sorted Array case failed.", LINE_INFO());
+			Assert::AreEqual(findSingleOccurenceNumber(A, 7), -1, L"sorted Array case failed.", LINE_INFO());
 
 			int A1[7] = { 2, 2, 2, 3, 3, 3, 6 };
 			Assert::AreEqual(findSingleOccurenceNumber(A1, 7), 6, L"sorted Array case failed.", LINE_INFO());
